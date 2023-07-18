@@ -7,8 +7,20 @@
 </head>
 <body>
     <script>
-        let name = prompt("Enter your name: ")
+        let who = prompt("who's there?: ")
         alert(name)
+        if(who == "Admin"){
+            if(password == "" || !who)
+                alert("I don't know you");
+            let password = prompt("Enter the password:")
+            if(password == "TheMaster")
+                alert("Welcome!")
+            else if(password == "")
+                alert("Canceled")
+            else{
+                alert("Wrong Password")
+            }
+        }
     </script>
 </body>
 </html>
