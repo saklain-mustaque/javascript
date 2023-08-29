@@ -1,2 +1,2 @@
 let myDate = new Date()
-console.log(myDate.getDate)
+console.log(myDate.getDate())
