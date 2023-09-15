@@ -5,3 +5,9 @@
 // Reference (Non primitive)
  
 // Arry, Objects, Functions
+
+// +++++++++++++++++++++++++++Memory+++++++++++++++++++++++
+
+// Stack(primitive), Heap(Non-primitive)  -> ex: objects
+//          |
+//    strings,numbers,etc
