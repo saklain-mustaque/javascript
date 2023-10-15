@@ -21,5 +21,12 @@ console.log(Math.ceil(6.1))
 console.log(Math.min(45,50,51,40,23))
 console.log(Math.max(45,50,51,40,23))
 
-console.log(Math.random())
+console.log(Math.random())      // Math.random() gives values in range of 0 - 1
+console.log(Math.random()*10)
+
+// program to get a number between some range of numbers
+const min = 10
+const max = 20
+
+console.log(Math.floor(Math.random()*(max - min + 1)) + min)
 
